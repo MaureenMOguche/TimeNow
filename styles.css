@@ -214,7 +214,9 @@ div.email {
 label.email-label {
     font-weight: bold;
 }
-
+.foot-left {
+    width: 50%;
+}
 
 .footer-btn {
     padding: 15px 20px;

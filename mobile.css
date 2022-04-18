@@ -4,7 +4,8 @@
     .leftdiv,
     .midsection,
     .mid-right,
-    .col6 {
+    .col6,
+    .start {
         display: block;
         width: 100%;
         padding: 3%;
