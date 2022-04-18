@@ -1,0 +1,215 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+/*###### navigation menu ##########*/
+
+nav ul li {
+    display: inline-block;
+    padding: 0 3%;
+}
+
+
+
+/*###### top section ##########*/
+
+.row {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.leftdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: navy;
+    padding: 0 10% 10% 15% ;
+}
+
+.leftdiv h1 {
+    font-size: 3.5em;
+}
+.leftdiv p {
+    line-height: 1.5em;
+    font-size: 1em;
+    padding:3% 0;
+}
+button {
+    padding: 20px 40px;
+    background-color: navy;
+    color:white;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 6px;
+}
+
+a.viewdemo {
+    font-size: 1.2em;
+    padding-left: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+div.shield {
+    display: flex;
+}
+.shield img {
+    padding-right: 30px;
+}
+
+
+
+
+.rightdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: steelblue;
+    padding-bottom: 10%;
+}
+.rightdiv-cta {
+    padding: 20px 40px;
+    line-height : 150px;
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+    
+}
+.rightdiv img {
+    width: 80%;
+}
+
+
+
+/*###### middle section ##########*/
+.row2 {
+    width: 100%;
+    display: flex;
+}
+
+div.midsection {
+    padding: 7.5%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.midsection h2 {
+    font-size: 2em;
+    color:navy;
+    padding-bottom: 5%;
+}
+.mid-right {
+    padding: 7.5% 7.5% 7.5% 0;
+}
+.mid-right p {
+    color:navy;
+    line-height: 1.5em;
+}
+div.people {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.people img {
+    height: 60px;
+    padding-right: 15px;
+}
+
+
+/*####### bottom mid section #######*/
+.mid2 {
+    background-color: aqua;
+    padding: 7.5% 0;
+}
+.col6 {
+    padding-left: 15%;
+    width: 80%;
+}
+.title {
+    color: steelblue;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.col6 h3 {
+    font-size: 2em;
+    padding:0 3% 3% 0;
+    color:navy;
+}
+
+p.textt {
+    line-height: 1.5em;
+    color:navy;
+    padding-bottom: 3%;
+}
+
+a.view-demo {
+    text-decoration: none;
+    font-weight: bold;
+    padding-top: 8%;
+}
+
+
+
+
+/*########## footer section #############*/
+
+footer {
+    width: 100%;
+    padding: 3% 7.5%;
+}
+
+div.foot-left {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+footer ul {
+    list-style: none;
+}
+footer ul li {
+    padding:4% 0;
+}
+footer ul li a {
+    text-decoration: none;
+}
+
+.list-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 8%;
+}
+
+div.email {
+  padding: 3% 0 0 25%;
+}
+
+.email-input {
+    padding: 3%;
+    border:none;
+}
+
+.inputt {
+    border: solid 2px gray;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+    border-radius: 6px;
+    align-self: center;
+    margin-top: 2%;
+}
+
+label.email-label {
+    font-weight: bold;
+}

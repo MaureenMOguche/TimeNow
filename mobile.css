@@ -1,0 +1,37 @@
+@media (max-width:760px){
+    .row,
+    .row2,
+    .leftdiv,
+    .midsection,
+    .mid-right,
+    .col6 {
+        display: block;
+        width: 100%;
+        padding: 3%;
+        margin:0;
+    } 
+    div.email {
+        padding:0;
+        margin-top:8%;
+
+    }
+    .rightdiv {
+        display: flex;
+        padding: 5%;
+    }
+    .rightdiv img {
+        width: 100%;
+    }
+    .rightdiv-cta {
+        display: none;
+    }
+
+    .people {
+        width: 100%;
+    }
+
+    .leftdiv h1 {
+        font-size: 2.5em;
+        margin-top: 10%;
+    }
+}
