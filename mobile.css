@@ -40,6 +40,11 @@
         width: 100%;
     }
 
+    .people img {
+        height: 30px;
+        padding-right: 5px;
+    }
+
     .leftdiv h1 {
         font-size: 2.5em;
         margin-top: 10%;
