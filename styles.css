@@ -195,8 +195,9 @@ div.email {
 }
 
 .email-input {
-    padding: 3%;
+    padding: 1%;
     border:none;
+    width: 50%;
 }
 
 .inputt {
@@ -212,4 +213,9 @@ div.email {
 
 label.email-label {
     font-weight: bold;
+}
+
+
+.footer-btn {
+    padding: 15px 20px;
 }
