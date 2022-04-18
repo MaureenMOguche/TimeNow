@@ -1,4 +1,4 @@
-@media (max-width:760px){
+@media (max-width:860px){
     .row,
     .row2,
     .leftdiv,
@@ -23,8 +23,14 @@
     .rightdiv img {
         width: 100%;
     }
-    .rightdiv-cta {
-        display: none;
+    
+    button {
+        padding: 10px 20px;
+        background-color: navy;
+        color:white;
+        border: none;
+        font-size: 1em;
+        border-radius: 6px;
     }
 
     .people {
